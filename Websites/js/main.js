@@ -62,7 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
             carElement.classList.add("car-item");
             carElement.innerHTML = `
                 <div class="card" style="width: 18rem; display: flex;">
-                    <img src="${car.pic}" class="card-img-top" alt="${car.title}">
+                    <img src="${car.pic}" class="card-img-top" alt="">
                     <div class="card-body">
                         <h5 class="card-title">${car.title}</h5>
                         <p class="card-text">

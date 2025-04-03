@@ -15,7 +15,7 @@
             "year": 2021,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p1.jpg"
+            "pic": "./img/p1.jpg"
         },
         {
             "id": 2,
