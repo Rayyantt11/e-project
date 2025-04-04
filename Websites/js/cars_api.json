@@ -32,7 +32,7 @@
             "year": 2022,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p2.jpg"
+            "pic": "./img/p2.jpg"
         },
         {
             "id": 3,
@@ -49,7 +49,7 @@
             "year": 2023,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "img/p3.jpg"
+            "pic": "./img/p3.jpg"
         },
         {
             "id": 4,
@@ -66,7 +66,7 @@
             "year": 2024,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p4.jpg"
+            "pic": "./img/p4.jpg"
         },
         {
             "id": 5,
@@ -83,7 +83,7 @@
             "year": 2020,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"
+            "pic": "./img/p5.jpg"
         },
         {
             "id": 6,
@@ -100,7 +100,8 @@
             "year": 2021,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p6.jpg"
+        },
         {
             "id": 7,
             "title": "BMW Coupe",
@@ -116,7 +117,7 @@
             "year": 2022,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"
+            "pic": "./img/p7.jpg"
         },
         {
             "id": 8,
@@ -133,7 +134,8 @@
             "year": 2023,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p8.jpg"
+        },
         {
             "id": 9,
             "title": "BMW Hatchback",
@@ -149,7 +151,8 @@
             "year": 2024,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p9.jpg"
+        },
         {
             "id": 10,
             "title": "BMW Convertible",
@@ -165,7 +168,8 @@
             "year": 2020,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p10.jpg"
+        },
         {
             "id": 11,
             "title": "Mercedes-Benz Sedan",
@@ -181,7 +185,8 @@
             "year": 2021,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p11.jpg"
+        },
         {
             "id": 12,
             "title": "Mercedes-Benz Coupe",
@@ -197,7 +202,8 @@
             "year": 2022,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p12.jpg"
+        },
         {
             "id": 13,
             "title": "Mercedes-Benz SUV",
@@ -213,7 +219,8 @@
             "year": 2023,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p13.jpg"
+        },
         {
             "id": 14,
             "title": "Mercedes-Benz Hatchback",
@@ -229,7 +236,8 @@
             "year": 2024,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p14.jpg"
+        },
         {
             "id": 15,
             "title": "Mercedes-Benz Convertible",
@@ -245,7 +253,8 @@
             "year": 2020,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p15.jpg"
+        },
         {
             "id": 16,
             "title": "Ford Sedan",
@@ -261,7 +270,8 @@
             "year": 2021,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p16.jpg"
+        },
         {
             "id": 17,
             "title": "Ford Coupe",
@@ -277,7 +287,8 @@
             "year": 2022,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p17.jpg"
+        },
         {
             "id": 18,
             "title": "Ford SUV",
@@ -293,7 +304,8 @@
             "year": 2023,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p18.jpg"
+        },
         {
             "id": 19,
             "title": "Ford Hatchback",
@@ -309,7 +321,8 @@
             "year": 2024,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p19.jpg"
+        },
         {
             "id": 20,
             "title": "Ford Convertible",
@@ -325,7 +338,8 @@
             "year": 2020,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p20.jpg"
+        },
         {
             "id": 21,
             "title": "Chevrolet Sedan",
@@ -341,7 +355,8 @@
             "year": 2021,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p21.jpg"
+        },
         {
             "id": 22,
             "title": "Chevrolet Coupe",
@@ -357,7 +372,8 @@
             "year": 2022,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p22.jpg"
+        },
         {
             "id": 23,
             "title": "Chevrolet SUV",
@@ -373,7 +389,8 @@
             "year": 2023,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p23.jpg"
+        },
         {
             "id": 24,
             "title": "Chevrolet Hatchback",
@@ -389,7 +406,8 @@
             "year": 2024,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p24.jpg"
+        },
         {
             "id": 25,
             "title": "Chevrolet Convertible",
@@ -405,7 +423,8 @@
             "year": 2020,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p25.jpg"
+        },
         {
             "id": 26,
             "title": "Toyota Sedan",
@@ -421,7 +440,8 @@
             "year": 2021,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p26.jpg"
+        },
         {
             "id": 27,
             "title": "Toyota Coupe",
@@ -437,7 +457,8 @@
             "year": 2022,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p27.jpg"
+        },
         {
             "id": 28,
             "title": "Toyota SUV",
@@ -453,7 +474,8 @@
             "year": 2023,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p28.jpg"
+        },
         {
             "id": 29,
             "title": "Toyota Hatchback",
@@ -469,7 +491,8 @@
             "year": 2024,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p29.jpg"
+        },
         {
             "id": 30,
             "title": "Toyota Convertible",
@@ -485,7 +508,8 @@
             "year": 2020,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p30.jpg"
+        },
         {
             "id": 31,
             "title": "Honda Sedan",
@@ -501,7 +525,8 @@
             "year": 2021,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p31.jpg"
+        },
         {
             "id": 32,
             "title": "Honda Coupe",
@@ -517,7 +542,8 @@
             "year": 2022,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p5.jpg"        },
+            "pic": "./img/p32.jpg"
+        },
         {
             "id": 33,
             "title": "Honda SUV",
@@ -533,8 +559,8 @@
             "year": 2023,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p33.jpg"   
-         },
+            "pic": "./img/p33.jpg"
+        },
         {
             "id": 34,
             "title": "Honda Hatchback",
@@ -550,7 +576,7 @@
             "year": 2024,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p34.jpg"    
+            "pic": "./img/p34.jpg"
         },
         {
             "id": 35,
@@ -567,7 +593,8 @@
             "year": 2020,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p35.jpg"        },
+            "pic": "./img/p35.jpg"
+        },
         {
             "id": 36,
             "title": "Nissan Sedan",
@@ -583,7 +610,8 @@
             "year": 2021,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p36.jpg"        },
+            "pic": "./img/p36.jpg"
+        },
         {
             "id": 37,
             "title": "Nissan Coupe",
@@ -599,7 +627,8 @@
             "year": 2022,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p37.jpg"        },
+            "pic": "./img/p37.jpg"
+        },
         {
             "id": 38,
             "title": "Nissan SUV",
@@ -615,7 +644,7 @@
             "year": 2023,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p38.jpg"
+            "pic": "./img/p38.jpg"
         },
         {
             "id": 39,
@@ -632,7 +661,7 @@
             "year": 2024,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p39.jpg"
+            "pic": "./img/p39.jpg"
         },
         {
             "id": 40,
@@ -649,7 +678,7 @@
             "year": 2020,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p40.jpg"
+            "pic": "./img/p40.jpg"
         },
         {
             "id": 41,
@@ -666,7 +695,7 @@
             "year": 2021,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
+            "pic": "./img/p41.jpg"
         },
         {
             "id": 42,
@@ -683,7 +712,7 @@
             "year": 2022,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p42.jpg"
+            "pic": "./img/p42.jpg"
         },
         {
             "id": 43,
@@ -700,7 +729,7 @@
             "year": 2023,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p43.jpg"
+            "pic": "./img/p43.jpg"
         },
         {
             "id": 44,
@@ -717,7 +746,7 @@
             "year": 2024,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p44.jpg"
+            "pic": "./img/p44.jpg"
         },
         {
             "id": 45,
@@ -734,8 +763,7 @@
             "year": 2020,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p45.jpg"
-
+            "pic": "./img/p45.jpg"
         },
         {
             "id": 46,
@@ -752,8 +780,7 @@
             "year": 2021,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p46.jpg"
-
+            "pic": "./img/p46.jpg"
         },
         {
             "id": 47,
@@ -770,8 +797,7 @@
             "year": 2022,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p47.jpg"
-
+            "pic": "./img/p47.jpg"
         },
         {
             "id": 48,
@@ -788,8 +814,7 @@
             "year": 2023,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p48.jpg"
-
+            "pic": "./img/p48.jpg"
         },
         {
             "id": 49,
@@ -806,8 +831,7 @@
             "year": 2024,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p49.jpg"
         },
         {
             "id": 50,
@@ -824,8 +848,7 @@
             "year": 2020,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p50.jpg"
         },
         {
             "id": 51,
@@ -842,8 +865,7 @@
             "year": 2021,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p51.jpg"
         },
         {
             "id": 52,
@@ -860,8 +882,7 @@
             "year": 2022,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p52.jpg"
         },
         {
             "id": 53,
@@ -878,8 +899,7 @@
             "year": 2023,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p53.jpg"
         },
         {
             "id": 54,
@@ -896,8 +916,7 @@
             "year": 2024,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p54.jpg"
         },
         {
             "id": 55,
@@ -914,8 +933,7 @@
             "year": 2020,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p55.jpg"
         },
         {
             "id": 56,
@@ -932,8 +950,7 @@
             "year": 2021,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p56.jpg"
         },
         {
             "id": 57,
@@ -950,8 +967,7 @@
             "year": 2022,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p57.jpg"
         },
         {
             "id": 58,
@@ -968,8 +984,7 @@
             "year": 2023,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p58.jpg"
         },
         {
             "id": 59,
@@ -986,8 +1001,7 @@
             "year": 2024,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p59.jpg"
         },
         {
             "id": 60,
@@ -1004,8 +1018,7 @@
             "year": 2020,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p60.jpg"
         },
         {
             "id": 61,
@@ -1022,8 +1035,7 @@
             "year": 2021,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p61.jpg"
         },
         {
             "id": 62,
@@ -1040,8 +1052,7 @@
             "year": 2022,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p62.jpg"
         },
         {
             "id": 63,
@@ -1058,8 +1069,7 @@
             "year": 2023,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p63.jpg"
         },
         {
             "id": 64,
@@ -1076,8 +1086,7 @@
             "year": 2024,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p64.jpg"
         },
         {
             "id": 65,
@@ -1094,8 +1103,7 @@
             "year": 2020,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p65.jpg"
         },
         {
             "id": 66,
@@ -1112,8 +1120,7 @@
             "year": 2021,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p66.jpg"
         },
         {
             "id": 67,
@@ -1130,8 +1137,7 @@
             "year": 2022,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p67.jpg"
         },
         {
             "id": 68,
@@ -1148,8 +1154,7 @@
             "year": 2023,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p68.jpg"
         },
         {
             "id": 69,
@@ -1166,8 +1171,7 @@
             "year": 2024,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p69.jpg"
         },
         {
             "id": 70,
@@ -1184,8 +1188,7 @@
             "year": 2020,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p70.jpg"
         },
         {
             "id": 71,
@@ -1202,8 +1205,7 @@
             "year": 2021,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p71.jpg"
         },
         {
             "id": 72,
@@ -1220,8 +1222,7 @@
             "year": 2022,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p72.jpg"
         },
         {
             "id": 73,
@@ -1238,8 +1239,7 @@
             "year": 2023,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p73.jpg"
         },
         {
             "id": 74,
@@ -1256,8 +1256,7 @@
             "year": 2024,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p74.jpg"
         },
         {
             "id": 75,
@@ -1274,8 +1273,7 @@
             "year": 2020,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p75.jpg"
         },
         {
             "id": 76,
@@ -1292,8 +1290,7 @@
             "year": 2021,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p76.jpg"
         },
         {
             "id": 77,
@@ -1310,8 +1307,7 @@
             "year": 2022,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p77.jpg"
         },
         {
             "id": 78,
@@ -1328,8 +1324,7 @@
             "year": 2023,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p78.jpg"
         },
         {
             "id": 79,
@@ -1346,8 +1341,7 @@
             "year": 2024,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p41.jpg"
-
+            "pic": "./img/p79.jpg"
         },
         {
             "id": 80,
@@ -1364,8 +1358,7 @@
             "year": 2020,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p80.jpg"
-
+            "pic": "./img/p80.jpg"
         },
         {
             "id": 81,
@@ -1382,8 +1375,7 @@
             "year": 2021,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p81.jpg"
-
+            "pic": "./img/p81.jpg"
         },
         {
             "id": 82,
@@ -1400,8 +1392,7 @@
             "year": 2022,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p82.jpg"
-
+            "pic": "./img/p82.jpg"
         },
         {
             "id": 83,
@@ -1418,8 +1409,7 @@
             "year": 2023,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p83.jpg"
-
+            "pic": "./img/p83.jpg"
         },
         {
             "id": 84,
@@ -1436,8 +1426,7 @@
             "year": 2024,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p84.jpg"
-
+            "pic": "./img/p84.jpg"
         },
         {
             "id": 85,
@@ -1454,8 +1443,7 @@
             "year": 2020,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p85.jpg"
-
+            "pic": "./img/p85.jpg"
         },
         {
             "id": 86,
@@ -1472,8 +1460,7 @@
             "year": 2021,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p86.jpg"
-
+            "pic": "./img/p86.jpg"
         },
         {
             "id": 87,
@@ -1490,8 +1477,7 @@
             "year": 2022,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p87.jpg"
-
+            "pic": "./img/p87.jpg"
         },
         {
             "id": 88,
@@ -1508,8 +1494,7 @@
             "year": 2023,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p88.jpg"
-
+            "pic": "./img/p88.jpg"
         },
         {
             "id": 89,
@@ -1526,8 +1511,7 @@
             "year": 2024,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p89.jpg"
-
+            "pic": "./img/p89.jpg"
         },
         {
             "id": 90,
@@ -1544,8 +1528,7 @@
             "year": 2020,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p90.jpg"
-
+            "pic": "./img/p90.jpg"
         },
         {
             "id": 91,
@@ -1562,8 +1545,7 @@
             "year": 2021,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p91.jpg"
-
+            "pic": "./img/p91.jpg"
         },
         {
             "id": 92,
@@ -1580,8 +1562,7 @@
             "year": 2022,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p92.jpg"
-
+            "pic": "./img/p92.jpg"
         },
         {
             "id": 93,
@@ -1598,8 +1579,7 @@
             "year": 2023,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p93.jpg"
-
+            "pic": "./img/p93.jpg"
         },
         {
             "id": 94,
@@ -1616,8 +1596,7 @@
             "year": 2024,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p94.jpg"
-
+            "pic": "./img/p94.jpg"
         },
         {
             "id": 95,
@@ -1634,8 +1613,7 @@
             "year": 2020,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p95.jpg"
-
+            "pic": "./img/p95.jpg"
         },
         {
             "id": 96,
@@ -1652,8 +1630,7 @@
             "year": 2021,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p96.jpg"
-
+            "pic": "./img/p96.jpg"
         },
         {
             "id": 97,
@@ -1670,8 +1647,7 @@
             "year": 2022,
             "fuel": "Diesel",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p97.jpg"
-
+            "pic": "./img/p97.jpg"
         },
         {
             "id": 98,
@@ -1688,8 +1664,7 @@
             "year": 2023,
             "fuel": "Electric",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p98.jpg"
-
+            "pic": "./img/p98.jpg"
         },
         {
             "id": 99,
@@ -1706,8 +1681,7 @@
             "year": 2024,
             "fuel": "Hybrid",
             "transmission": "Manual",
-            "pic": "http://127.0.0.1:5500/Websites/img/p99.jpg"
-
+            "pic": "./img/p99.jpg"
         },
         {
             "id": 100,
@@ -1724,8 +1698,7 @@
             "year": 2020,
             "fuel": "Petrol",
             "transmission": "Automatic",
-            "pic": "http://127.0.0.1:5500/Websites/img/p100.jpg"
-
+            "pic": "./img/p100.jpg"
         }
     ]
 }
