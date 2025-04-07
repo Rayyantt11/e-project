@@ -67,9 +67,41 @@
        
     </nav>
 </header>
-<!-- carousel-section -->
-
-
+<!-- Range-of-cars -->  
+<div id="car-categories" class="container-fluid car-categories my-4">
+    <h2>Range of Cars</h2>
+    <div class="category-list">
+        <div class="category">
+            <p><a href="?type=Sedan" aria-label="Browse Sedan models">Sedan</a></p>
+        </div>
+        <div class="category">
+            <p><a href="?type=Coupe" aria-label="Browse Coupe models">Coupe</a></p>
+        </div>
+        <div class="category">
+            <p><a href="?type=SUV" aria-label="Browse SUV models">SUV</a></p>
+        </div>
+        <div class="category">
+            <p><a href="?type=Hatchback" aria-label="Browse Hatchback models">Hatchback</a></p>
+        </div>
+        <div class="category">
+            <p><a href="?type=Convertible" aria-label="Browse Convertible models">Convertible</a></p>
+        </div>
+    </div>
+    <div class="text-center cars-cards">              
+        <div id="carouselExample" class="carousel slide carousel-cards">
+            <div class="carousel-inner">
+                <div class="row d-flex">
+                    <div class="col-lg-8 car-card" id="car-card"></div>
+                </div>
+            </div>
+            <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
+              <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>        
+    </div>  
+</div>
+<!-- Range-of-cars -->
     <!-- Footer Start -->
     <footer>
         <div class="container-fluid text-center mt-5 mb-3">

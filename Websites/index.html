@@ -132,7 +132,7 @@
     <!-- Carousel Section -->
 
     <!-- Car Categories Section -->
-    <div id="car-categories" class="container-fluid car-categories my-4">
+    <div id="car-categories-type" class="container-fluid car-categories my-4">
         <h2>Range of Cars</h2>
         <div class="category-list">
             <div class="category">
@@ -155,7 +155,7 @@
             <div id="carouselExample" class="carousel slide carousel-cards">
                 <div class="carousel-inner">
                     <div class="row d-flex">
-                        <div class="col-lg-8 car-card" id="car-card"></div>
+                        <div class="col-lg-8 car-card" id="car-card-type"></div>
                     </div>
                 </div>
                 <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
@@ -164,7 +164,71 @@
                 </button>
             </div>        
         </div>  
-    </div>      
+    </div> 
+    
+    
+    <div id="car-categories-brand" class="container-fluid car-categories my-4">
+        <h2>Brands</h2>
+        <div class="category-list">
+            <div class="category">
+                <p><a href="?make=audi" aria-label="Browse Sedan models">Audi</a></p>
+            </div>
+            <div class="category">
+                <p><a href="?make=BMW" aria-label="Browse Coupe models">BMW</a></p>
+            </div>
+            <div class="category">
+                <p><a href="?make=Mercedes-Benz" aria-label="Browse SUV models">Mercedes-Benz</a></p>
+            </div>
+            <div class="category">
+                <p><a href="?make=Ford" aria-label="Browse Hatchback models">Ford</a></p>
+            </div>
+            <div class="category">
+                <p><a href="?make=Chevrolet" aria-label="Browse Convertible models">Chevrolet</a></p>
+            </div>
+            <div class="link-button"> 
+                <a href="#">More</a>
+            </div>
+        </div>
+        <div class="text-center cars-cards">              
+            <div id="carouselExample" class="carousel slide carousel-cards">
+                <div class="carousel-inner">
+                    <div class="row d-flex">
+                        <div class="col-lg-8 car-card" id="car-card-brand"></div>
+                    </div>
+                </div>
+                <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
+                  <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>        
+        </div>  
+    </div> 
+
+
+    <div id="car-categories-condition" class="container-fluid car-categories my-4">
+        <h2>preowned cars</h2>
+        <div class="category-list">
+            <div class="category">
+                <p><a href="?condition=used" aria-label="Browse Sedan models">Used</a></p>
+            </div>
+            <div class="category">
+                <p><a href="?condition=new" aria-label="Browse Coupe models">New</a></p>
+            </div>
+        </div>
+        <div class="text-center cars-cards">              
+            <div id="carouselExample" class="carousel slide carousel-cards">
+                <div class="carousel-inner">
+                    <div class="row d-flex">
+                        <div class="col-lg-8 car-card" id="car-card-condition"></div>
+                    </div>
+                </div>
+                <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
+                  <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>        
+        </div>  
+    </div> 
         
     <!-- Footer -->
     <footer>
@@ -173,50 +237,19 @@
                 <div id="footer" class="row pt-5 mt-5">
                     <div class="col-lg-3 col-md-6">
                         <p>For Clients</p>
-                        <a href="">How to hire</a>
-                        <a href="">Talent Marketplace</a>
-                        <a href="">Project Catalog</a>
-                        <a href="">Hire an agency</a>
-                        <a href="">Enterprise</a>
-                        <a href="">Any Hire</a>
-                        <a href="">Contract-to-hire</a>
-                        <a href="">Direct Contracts</a>
-                        <a href="">Hire worldwide</a>
-                        <a href="">Hire in the USA</a>
+                        
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <p>For Talent</p>
-                        <a href="">How to find work</a>
-                        <a href="">Direct Contracts</a>
-                        <a href="">Find freelance jobs worldwide</a>
-                        <a href="">Find freelance jobs in the USA</a>
-                        <a href="">Win work with ads</a>
-                        <a href="">Exclusive resources with</a>
-                        <a href="">Exclusive resources with Freelancer Plus</a>
+                       
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <p>Resources</p>
-                        <a href="">Help & support</a>
-                        <a href="">Success stories</a>
-                        <a href="">Upwork reviews</a>
-                        <a href="">Resources</a>
-                        <a href="">Blog</a>
-                        <a href="">Community</a>
-                        <a href="">Affiliate programme</a>
-                        <a href="">Free Business Tools</a>
+                        
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <p>Company</p>
-                        <a href="">About us</a>
-                        <a href="">Leadership</a>
-                        <a href="">Investor relations</a>
-                        <a href="">Careers</a>
-                        <a href="">Our impact</a>
-                        <a href="">Press</a>
-                        <a href="">Contact us</a>
-                        <a href="">Partners</a>
-                        <a href="">Trust, safety & security</a>
-                        <a href="">Modern slavery statement</a>
+                        
                     </div>
                 </div>
 
@@ -273,6 +306,7 @@
         crossorigin="anonymous"></script>
 
     <!-- Custom Javascript -->
+     <script src="js/api.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
