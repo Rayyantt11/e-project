@@ -565,5 +565,21 @@ h1 {
   font-size: 18px;
 }
 .modal-backdrop {
-  z-index: 0 !important; /* Default backdrop z-index */
+  z-index: 0 !important; 
 }
+.modal{
+  z-index: 999;
+}
+body.modal-open .main-content {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+  justify-content: center !important;
+}
+.modal-dialog-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:fit-content;
+  transition: transform 0.3s ease-in-out;
+}
+
