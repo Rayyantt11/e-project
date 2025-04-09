@@ -34,7 +34,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body data-aos="zoom-out">
+<body data-aos="zoom-out" class="bg-dark">
     <!-- Navigation Section -->
     <nav class="navbar navbar-expand-lg bg-dark color-light
     text-align-right">
@@ -44,7 +44,7 @@
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse nav-link-sec" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse bg-dark nav-link-sec" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     <a class="nav-link" href="about.html">About Us</a>
@@ -126,10 +126,10 @@
     <!-- Carousel Section -->
 
     <!-- Car Categories Section -->
-    <div id="car-categories-type" class="container-fluid car-categories my-4 reveal">
+    <div id="car-categories-type" class="container-fluid car-categories my-4 reveal bg-dark">
         <h2 data-aos="fade-down" data-aos-easing="linear"
         data-aos-duration="1500">Range of Cars</h2>
-        <div class="category-list" data-aos="fade-right" data-aos-easing="linear"
+        <div class="category-list" data-aos="fade-right"
         data-aos-duration="1500">
             <div class="category">
                 <p><a href="?type=Sedan" aria-label="Browse Sedan models">Sedan</a></p>
@@ -157,7 +157,8 @@
 
                 <!-- Carousel control (optional, depending on your design) -->
                 <div class="mt-4 text-center">
-                    <button class="cards-control-next" aria-label="Next carousel item">
+                    <button class="cards-control-next"  data-aos="fade-right"
+                    data-aos-duration="1500" aria-label="Next carousel item">
                         <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -166,8 +167,8 @@
         </div>
 
 
-        <div id="car-categories-brand" class="container-fluid car-categories my-4 reveal">
-            <h2 data-aos="fade-down" data-aos-easing="linear"
+        <div id="car-categories-brand" class="container-fluid car-categories my-4 reveal bg-dark">
+            <h2 data-aos="fade-down" 
             data-aos-duration="1500">Brands</h2>
             <div class="category-list"data-aos="fade-right" data-aos-easing="linear"
             data-aos-duration="1500">
@@ -186,9 +187,10 @@
                 <div class="category">
                     <p><a href="?make=Chevrolet" aria-label="Browse Convertible models">Chevrolet</a></p>
                 </div>
-                <div class="link-button">
-                    <a href="#">More</a>
+                <div class="category">
+                    <p><a href="brands.html" aria-label="Browse Convertible models">More + 15</a></p>
                 </div>
+                
             </div>
             <div class="text-center cars-cards">
                 <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
@@ -198,7 +200,8 @@
                     </div>
                     </div>
                     <div class="mt-4 text-center">
-                        <button class="cards-control-next" aria-label="Next carousel item">
+                        <button class="cards-control-next"  data-aos="fade-right" data-aos-easing="linear"
+                        data-aos-duration="1500" aria-label="Next carousel item">
                             <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
@@ -208,7 +211,7 @@
         </div>
 
 
-        <div id="car-categories-condition" class="container-fluid car-categories my-4 ">
+        <div id="car-categories-condition" class="container-fluid car-categories my-4 bg-dark">
             <h2 data-aos="fade-down" data-aos-easing="linear"
             data-aos-duration="1500">preowned cars</h2>
             <div class="category-list" data-aos="fade-right" data-aos-easing="linear"
@@ -228,13 +231,15 @@
                     </div>
                     </div>
                     <div class="mt-4 text-center">
-                        <button class="cards-control-next" aria-label="Next carousel item">
+                        <button class="cards-control-next" data-aos="fade-right" data-aos-easing="linear"
+                        data-aos-duration="1500" aria-label="Next carousel item">
                             <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <!-- Footer -->
         <footer class="footer bg-dark text-light pt-4" data-aos="zoom-in" data-aos-easing="linear"
@@ -252,11 +257,12 @@
                     <div class="col-md-3">
                         <h5>Quick Links</h5>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-light">Home</a></li>
-                            <li><a href="#" class="text-light">Browse Cars</a></li>
-                            <li><a href="#" class="text-light">Sell Your Car</a></li>
-                            <li><a href="#" class="text-light">Contact Us</a></li>
-                            <li><a href="#" class="text-light">Terms & Conditions</a></li>
+                            <li><a href="index.html" class="text-light">Home</a></li>
+                            <li><a href="about.html" class="text-light">About Us</a></li>
+                            <li><a href="range.html" class="text-light">Range Of Cars</a></li>
+                            <li><a href="brands.html" class="text-light">Brands</a></li>
+                            <li><a href="preowned.html" class="text-light">Preowned</a></li>
+                            <li><a href="contact.html" class="text-light">Contact Us</a></li>
                         </ul>
                     </div>
 
@@ -265,7 +271,7 @@
                         <h5>Contact Us</h5>
                         <p>Email: <a href="mailto:support@carvan.com"
                                 class="text-light">support@carvan.com</a></p>
-                        <p>Phone: +1 800-123-4567</p>
+                        <p>Phone: <a href="tel:0312345678"> +1 800-123-4567</a></p>
                         <p>Address: 123 Main Street, City, Country</p>
                     </div>
 
@@ -293,7 +299,7 @@
                         </form>
                     </div>
                     <div class="col-12 text-center mt-4">
-                        <p>&copy; 2025 Car Marketplace. All rights reserved.</p>
+                        <p>&copy; 2025Carvan. All rights reserved.</p>
                     </div>
                 </div>
             </div>

@@ -1,21 +1,3 @@
-window.addEventListener("scroll", function () {
-    let header = document.querySelector("header");
-    let nav = document.querySelector("nav");
-    if (window.scrollY > 50) {
-        header.classList.add("scrolled");
-        nav.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
-    }
-
-    if (window.scrollY > 50) {
-        nav.classList.add("scrolled")
-    } else {
-        nav.classList.remove("scrolled")
-    }
-    ;
-});
-
 document.addEventListener("DOMContentLoaded", function () {
     const progressBars = document.querySelectorAll(".progress-fill");
     const carousel = document.querySelector("#carouselExampleInterval");
@@ -38,7 +20,6 @@ document.addEventListener("DOMContentLoaded", function () {
         startProgress(activeIndex);
     });
 });
-// overlay menu
 function openNav() {
     document.getElementById("myNav").classList.toggle("menu_width");
     document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style");

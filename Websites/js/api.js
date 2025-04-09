@@ -23,18 +23,14 @@ async function fetchAndDisplayCars() {
             const conditionMatch = carCondition ? car.condition?.toLowerCase() === carCondition : true;
             return typeMatch && makeMatch && conditionMatch;
         });
-
-        // Separate sections
         const carsByType = cars.filter(car => !carType || car.type?.toLowerCase() === carType);
         const carsByMake = cars.filter(car => !carMake || car.make?.toLowerCase() === carMake);
         const carsByCondition = cars.filter(car => !carCondition || car.condition?.toLowerCase() === carCondition);
 
-        // Display them
         displayCarsInSection("car-card-type", carsByType, "type");
         displayCarsInSection("car-card-brand", carsByMake, "brand");
         displayCarsInSection("car-card-condition", carsByCondition, "condition");
 
-        // Set up buttons
         setupNextButton("car-card-type", carsByType, "type");
         setupNextButton("car-card-brand", carsByMake, "brand");
         setupNextButton("car-card-condition", carsByCondition, "condition");
@@ -43,7 +39,6 @@ async function fetchAndDisplayCars() {
         console.error("Error fetching car data:", error);
     }
 }
-
 function displayCarsInSection(containerId, carList, sectionKey) {
     const container = document.getElementById(containerId);
     if (!container) return;
@@ -57,10 +52,7 @@ function displayCarsInSection(containerId, carList, sectionKey) {
     if (carsToShow.length === 0) {
         container.innerHTML = `<div class="col-12 text-center py-5"><p>No cars available</p></div>`;
         return;
-    }
-
-
-
+        }
     carsToShow.forEach(car => {
         const colDiv = document.createElement('div');
         colDiv.className = "col-lg-3 col-md-6 col-sm-12 p-2"
@@ -84,8 +76,6 @@ function displayCarsInSection(containerId, carList, sectionKey) {
         `;
         container.appendChild(colDiv);
     });
-
-    // Toggle button visibility
     const nextBtn = container.closest('.carousel-inner').parentElement.querySelector('.cards-control-next');
     if (nextBtn) {
         nextBtn.style.visibility = (currentPageBySection[sectionKey] < totalPages - 1) ? 'visible' : 'hidden';

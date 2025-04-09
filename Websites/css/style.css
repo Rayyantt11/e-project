@@ -62,6 +62,19 @@ nav {
   color: #121212;
   padding:10px 20px;
 }
+.navbar-toggler {
+  border: 1px solid white !important;
+  color: white !important; 
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+.navbar-collapse {
+  padding: 30px;
+  position: relative;
+  z-index: 9999;
+  height: 50px;
+}
 /* carousel (slidder) */
 .video-container {
   top: 0;
@@ -125,7 +138,7 @@ nav {
   font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
-  background: linear-gradient(135deg, #88B44E 0%, #FB9F38 100%);
+  background: linear-gradient(135deg, grey 30%, #FB9F38 100%);
   border: none;
   border-radius: 50px;
   text-decoration: none;
@@ -138,7 +151,7 @@ nav {
 .carousel-caption .btn:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-  background: linear-gradient(135deg, #FB9F38 0%, #88B44E 100%);
+  background: linear-gradient(135deg,#FB9F38 30%, grey 100%);
 }
 
 /* Responsive Adjustments */
@@ -255,14 +268,9 @@ nav {
 }
 
 /* progress bar */
-
-/* Car Categories Section Styling */
-/* Car Cards Section */
 /* Car Categories Section */
 .car-categories {
-  background-color: #1e1e1e;
   color: white;
-
 }
 
 .car-categories h2 {
@@ -280,7 +288,7 @@ nav {
   display: block;
   width: 80px;
   height: 4px;
-  background: linear-gradient(to right, #88B44E, #FB9F38);
+  background: linear-gradient(to right, grey 50%, #FB9F38 100%);
   margin: 15px auto 0;
 }
 
@@ -306,13 +314,16 @@ nav {
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+.category p{
+  color: white;
+}
 .category a {
   display: inline-block;
   padding: 1rem 2.5rem;
   font-size: 1.1rem;
   font-weight: 600;
   color: #fff;
-  background: linear-gradient(135deg, #88B44E 0%, #FB9F38 100%);
+  background: linear-gradient(135deg, grey 30%, #FB9F38 100%);
   border: none;
   border-radius: 50px;
   text-decoration: none;
@@ -324,7 +335,7 @@ nav {
 .category a:hover{
   transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-  background: linear-gradient(135deg, #FB9F38 0%, #88B44E 100%);
+  background: linear-gradient(135deg, #FB9F38 0%, grey 100%);
 }
 .carousel-cards .row.d-flex {
   margin: 0 auto;
@@ -418,7 +429,9 @@ nav {
   color: #fff;
   padding-top: 40px;
   padding-bottom: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Footer Text Styling */
@@ -510,9 +523,9 @@ nav {
   font-size: 1.75rem;
   font-weight: bold;
   text-align: left !important;
-  color: #333;
+  color: white;
   text-transform: capitalize;
-  border-bottom: 2px solid #007bff; /* Blue underline */
+  border-bottom: 2px solid white; /* Blue underline */
   padding-bottom: 10px;
   padding-left: 33px !important;
 }
@@ -532,7 +545,7 @@ h1 {
   font-size: 1.1em;
   line-height: 1.6;
   margin-bottom: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .events {
@@ -541,9 +554,15 @@ h1 {
   border-radius: 10px;
   margin-top: 30px;
 }
-
+.events p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .events h2 {
   color: #003366;
+}
+.contact p{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
 }
 .modal-backdrop {
   z-index: 0 !important; /* Default backdrop z-index */
