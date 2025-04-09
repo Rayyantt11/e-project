@@ -21,25 +21,20 @@ document.addEventListener("DOMContentLoaded", function () {
     const carousel = document.querySelector("#carouselExampleInterval");
     let activeIndex = 0;
     function startProgress(index) {
-        // Reset all progress bars
         progressBars.forEach((bar) => {
             bar.style.transition = "none";
             bar.style.width = "0%";
         });
-
-        // Start progress for the current slide
         setTimeout(() => {
             progressBars[index].style.transition = "width 4.9s linear";
             progressBars[index].style.width = "100%";
         }, 50);
     }
-
-    // Start first progress bar on page load
     startProgress(0);
 
 
     carousel.addEventListener("slid.bs.carousel", function () {
-        activeIndex = (activeIndex + 1) % progressBars.length; // Loop through bars
+        activeIndex = (activeIndex + 1) % progressBars.length; 
         startProgress(activeIndex);
     });
 });
