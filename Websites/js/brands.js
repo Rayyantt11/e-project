@@ -10,45 +10,53 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             if (container) {
                 const carCard = document.createElement('div');
-                carCard.innerHTML = `               
-                    <div class="container my-4">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="card custom-card flex-lg-row">
-                                            <div class="col-lg-4 p-0">
+                carCard.className = "col-lg-3 col-md-6 col-sm-12 p-2"
+                carCard.innerHTML = `   
+
+                                                    <!-- Modal -->
+                                                    <div class="modal fade" id="exampleModal" tabindex="1040" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog">
+                                                    <div class="modal-content bg-dark text-light">
+                                                        <div class="modal-header">
+                                                        <h1 class="modal-title text-light fs-5" id="exampleModalLabel">${car.title}</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                        </div>
+                                                        <div class="modal-body ">
+                                                       <img src="${car.pic}" class="car-image" loading="lazy" alt="Audi A6">
+                                                        <span class="mb-2">
+                                                        <strong>Type:</strong> <p>${car.type}</p> 
+                                                        <strong>Fuel:</strong> <p>${car.fuel}</p> 
+                                                        <strong>Transmission:</strong> <p>${car.transmission}</p>                                                
+                                                    
+                                                        <strong>Color:</strong> <p>${car.color} </p>
+                                                        <strong>Driven:</strong> <p>${car.driven} km </p>
+                                                        <strong>Owners:</strong> <p>${car.number_of_owner} </p>
+                                                        </span>                                                       
+                                                    <div class="mb-3">
+                                                        <span class="badge bg-light text-dark">${car.condition}</span>
+                                                        <span class="badge bg-light text-dark">Seats: ${car.number_of_seats}</span>
+                                                        <span class="badge bg-light text-dark">${car.model}</span>
+                                                        <span class="badge bg-light text-dark">${car.make}</span>
+                                                    </div>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>            
+                                                    <div class="card custom-card">
                                                 <img src="${car.pic}" class="car-image" loading="lazy" alt="Audi A6">
-                                            </div>
-                                            <div class="col-lg-8">
                                                 <div class="card-body">
                                                     <h5 class="card-title">${car.title}</h5>
-                                                    <h6 class="text-success">${car.price}$</h6>
-                                                    <p class="mb-2">
-                                                        <strong>Type:</strong> ${car.type} &nbsp;|&nbsp;
-                                                        <strong>Fuel:</strong> ${car.fuel} &nbsp;|&nbsp;
-                                                        <strong>Transmission:</strong> ${car.transmission}
-                                                    </p>
-                                                    <p class="mb-2">
-                                                        <strong>Color:</strong> ${car.color} &nbsp;|&nbsp;
-                                                        <strong>Driven:</strong> ${car.driven} km &nbsp;|&nbsp;
-                                                        <strong>Owners:</strong> ${car.number_of_owner}                                                        
-                                                    </p>
-                                                    <div class="mb-3">
-                                                        <span class="badge bg-primary">${car.condition}</span>
-                                                        <span class="badge bg-secondary">Seats: ${car.number_of_seats}</span>
-                                                        <span class="badge bg-info text-dark">${car.model}</span>
-                                                        <span class="badge bg-dark text-light">${car.make}</span>
-                                                    </div>
-                                                    <a href="#" class="btn btn-outline-primary">View Details</a>
-                                                </div>
+                                                    <h6 class="text-success">${car.price}$</h6>                                                   
+                                                     <!-- Button to open the modal -->
+                                                    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                                    view details
+                                                    </button>
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
                 `;
                 container.appendChild(carCard);
             } else {
-                console.warn(`No container found for make: ${make}`);
+                console.warn(`No container found for type: ${type}`);
             }
         });
     } catch (error) {

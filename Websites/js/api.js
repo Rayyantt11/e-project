@@ -59,26 +59,28 @@ function displayCarsInSection(containerId, carList, sectionKey) {
         return;
     }
 
-    
+
 
     carsToShow.forEach(car => {
         const colDiv = document.createElement('div');
-        colDiv.className = "col-lg-3 col-md-6 col-sm-6 col-6 "
+        colDiv.className = "col-lg-3 col-md-6 col-sm-12 p-2"
         colDiv.innerHTML = `
-            <div class="card px-2 h-100 shadow-sm">
-                <img src="${car.pic}" class="card-img-top" loading="lazy" alt="${car.title}" style="height: 180px; object-fit: cover;">
-                <div class="card-body">
-                    <h5 class="card-title">${car.title}</h5>
-                    <ul class="list-unstyled">
-                        <li class="car-model"><strong>Model:</strong> ${car.model}</li>
-                        <li class="car-price"><strong>Price:</strong> $${car.price.toLocaleString()}</li>
-                        <li class="car-year"><strong>Year:</strong> ${car.year}</li>
-                        <li class="car-condition"><strong>Condition:</strong> ${car.condition}</li>
-                    </ul>
-                </div>
-                <div class="card-footer bg-white border-0">
-                    <a href="range.html" class="btn btn-primary w-100">View Details</a>
-                </div>
+
+                    <div class="card h-100 shadow-sm">
+                      <img src="${car.pic}" class="card-img-top" loading="lazy" alt="${car.title}" style="height: 180px; object-fit: cover;">
+                      <div class="card-body">
+                        <h5 class="card-title">${car.title}</h5>
+                        <ul class="list-unstyled">
+                          <li><strong>Model:</strong> ${car.model}</li>
+                          <li><strong>Price:</strong> $${car.price.toLocaleString()}</li>
+                          <li><strong>Year:</strong> ${car.year}</li>
+                          <li><strong>Condition:</strong> ${car.condition}</li>
+                        </ul>
+                      </div>
+                      <div class="card-footer border-0">
+                        <a href="range.html" class="btn w-100">View Details</a>
+                      </div>
+                    </div>
         `;
         container.appendChild(colDiv);
     });

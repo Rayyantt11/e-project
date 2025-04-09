@@ -8,19 +8,21 @@
     <meta content="" name="keywords">
     <meta content="" name="description">
     <meta name="author" content="Your Name">
-    
+
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -28,42 +30,33 @@
 
     <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animation.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-aos="zoom-out">
     <!-- Navigation Section -->
-    <header>
-        <nav class="mx-5">
-            <div class="logo-sec">
-                <img src="img/logo.png" alt="Mountain Echoes Logo" width="130" height="auto">
-            </div>
-            <div class="nav-link-sec">
-                <ul>
-                    <li><a href="index.html" aria-current="page">Home</a></li>                   
-                    <li><a href="range.html">Range of cars</a></li>
-                    <li><a href="brands.html">Brands</a></li>
-                    <li><a href="preowned.html">Pre owned cars</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>    
-            <div class="custom_menu-btn">
-                <button onclick="openNav()" aria-label="Toggle navigation menu">
-                    <span class="s-1"></span>
-                    <span class="s-2"></span>
-                    <span class="s-3"></span>
-                </button>
-                <div id="myNav" class="overlay">
-                    <div class="overlay-content">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="shop.html">Shop</a>
-                        <a href="blog.html">Blog</a>
-                    </div>
+    <nav class="navbar navbar-expand-lg bg-dark color-light
+    text-align-right">
+        <div class="container-fluid logo-sec">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-link-sec" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                    <a class="nav-link" href="range.html">Range Of Cars</a>
+                    <a class="nav-link" href="brands.html">brands</a>
+                    <a class="nav-link" href="preowned.html">PreOwned</a>
+
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <!-- carousel-section -->
     <div id="carouselExampleInterval" class="carousel slide-1" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -75,9 +68,9 @@
                     </video>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Premium Vehicle Selection</h5>
-                    <p>Discover our exclusive collection of luxury vehicles for the discerning driver.</p>
-                    <a href="#car-categories" class="btn btn-primary mt-3">Explore Now</a>
+                    <h5 >Premium Vehicle Selection</h5>
+                    <p >Discover our exclusive collection of luxury vehicles for the discerning driver.</p>
+                    <a href="#car-categories"  class="btn btn-primary mt-3">Explore Now</a>
                 </div>
             </div>
             <div class="carousel-item" data-bs-interval="4900">
@@ -88,8 +81,8 @@
                     </video>
                 </div>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Luxury Redefined</h5>
-                    <p>Step into the future of automotive luxury with our flagship models.</p>
+                    <h5 >Luxury Redefined</h5>
+                    <p >Step into the future of automotive luxury with our flagship models.</p>
                     <a href="#car-categories" class="btn btn-primary mt-3">Learn More</a>
                 </div>
             </div>
@@ -102,8 +95,8 @@
                 </div>
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Exceptional Performance</h5>
-                    <p>Experience unparalleled driving dynamics with our performance models.</p>
-                    <a href="#car-categories" class="btn btn-primary mt-3">View Models</a>
+                    <p >Experience unparalleled driving dynamics with our performance models.</p>
+                    <a  href="#car-categories" class="btn btn-primary mt-3">View Models</a>
                 </div>
             </div>
         </div>
@@ -133,9 +126,11 @@
     <!-- Carousel Section -->
 
     <!-- Car Categories Section -->
-    <div id="car-categories-type" class="container-fluid car-categories my-4">
-        <h2>Range of Cars</h2>
-        <div class="category-list">
+    <div id="car-categories-type" class="container-fluid car-categories my-4 reveal">
+        <h2 data-aos="fade-down" data-aos-easing="linear"
+        data-aos-duration="1500">Range of Cars</h2>
+        <div class="category-list" data-aos="fade-right" data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="category">
                 <p><a href="?type=Sedan" aria-label="Browse Sedan models">Sedan</a></p>
             </div>
@@ -152,142 +147,171 @@
                 <p><a href="?type=Convertible" aria-label="Browse Convertible models">Convertible</a></p>
             </div>
         </div>
-        <div class="text-center cars-cards">              
-            <div id="carouselExample" class="carousel slide carousel-cards">
+        <div class="text-center cars-cards">
+            <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
                 <div class="carousel-inner">
-                    <div class="row d-flex">
-                        <div class="col-lg-12 car-card" id="car-card-type"></div>
+                    <div class="d-flex flex-wrap justify-content-center " data-aos="fade-up" data-aos-easing="linear"
+                    data-aos-duration="1500" id="car-card-type">
                     </div>
                 </div>
-                <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
-                  <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>        
-        </div>  
-    </div> 
-    
-    
-    <div id="car-categories-brand" class="container-fluid car-categories my-4">
-        <h2>Brands</h2>
-        <div class="category-list">
-            <div class="category">
-                <p><a href="?make=audi" aria-label="Browse Sedan models">Audi</a></p>
-            </div>
-            <div class="category">
-                <p><a href="?make=BMW" aria-label="Browse Coupe models">BMW</a></p>
-            </div>
-            <div class="category">
-                <p><a href="?make=Mercedes-Benz" aria-label="Browse SUV models">Mercedes-Benz</a></p>
-            </div>
-            <div class="category">
-                <p><a href="?make=Ford" aria-label="Browse Hatchback models">Ford</a></p>
-            </div>
-            <div class="category">
-                <p><a href="?make=Chevrolet" aria-label="Browse Convertible models">Chevrolet</a></p>
-            </div>
-            <div class="link-button"> 
-                <a href="#">More</a>
+
+                <!-- Carousel control (optional, depending on your design) -->
+                <div class="mt-4 text-center">
+                    <button class="cards-control-next" aria-label="Next carousel item">
+                        <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="text-center cars-cards">              
-            <div id="carouselExample" class="carousel slide carousel-cards">
-                <div class="carousel-inner">
-                    <div class="row d-flex">
-                        <div class="col-lg-8 car-card" id="car-card-brand"></div>
-                    </div>
-                </div>
-                <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
-                  <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>        
-        </div>  
-    </div> 
 
 
-    <div id="car-categories-condition" class="container-fluid car-categories my-4">
-        <h2>preowned cars</h2>
-        <div class="category-list">
-            <div class="category">
-                <p><a href="?condition=used" aria-label="Browse Sedan models">Used</a></p>
-            </div>
-            <div class="category">
-                <p><a href="?condition=new" aria-label="Browse Coupe models">New</a></p>
-            </div>
-        </div>
-        <div class="text-center cars-cards">              
-            <div id="carouselExample" class="carousel slide carousel-cards">
-                <div class="carousel-inner">
-                    <div class="row d-flex">
-                        <div class="col-lg-8 car-card" id="car-card-condition"></div>
-                    </div>
+        <div id="car-categories-brand" class="container-fluid car-categories my-4 reveal">
+            <h2 data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">Brands</h2>
+            <div class="category-list"data-aos="fade-right" data-aos-easing="linear"
+            data-aos-duration="1500">
+                <div class="category">
+                    <p><a href="?make=audi" aria-label="Browse Sedan models">Audi</a></p>
                 </div>
-                <button class="carousel-control-next cards-control-next" aria-label="Next carousel item">
-                  <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>        
-        </div>  
-    </div> 
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid text-center mt-5 mb-3">
-            <div id="bg" class="container-fluid pt-3">
-              <div style=" color: #fff; padding: 30px 20px; text-align: center;">
-                <div style="max-width: 1000px; margin: 0 auto;">
-                  <nav style="margin-bottom: 15px;">
-                    <a href="about.html" style="color: #ffcc00; margin: 0 15px; text-decoration: none;">About Us</a>
-                    <a href="brands.html" style="color: #ffcc00; margin: 0 15px; text-decoration: none;">Brands</a>
-                    <a href="range.html" style="color: #ffcc00; margin: 0 15px; text-decoration: none;">Range of Cars</a>
-                    <a href="preowned.html" style="color: #ffcc00; margin: 0 15px; text-decoration: none;">PreOwned Cars</a>
-                    <a href="contact.html" style="color: #ffcc00; margin: 0 15px; text-decoration: none;">Contact Us</a>
-                  </nav>
-                  <p style="margin: 5px 0;">&copy; 2025 <strong>CARVAN</strong>. All rights reserved.</p>
-                  <p style="margin: 5px 0;">Contact: <a href="mailto:info@carvan.com" style="color: #ffcc00; text-decoration: none;">info@carvan.com</a></p>
-                </div>         
+                <div class="category">
+                    <p><a href="?make=BMW" aria-label="Browse Coupe models">BMW</a></p>
                 </div>
-                <div id="footer-border" class="row border-bottom mt-5 mx-lg-5 d-flex">
-                    <div class="col-lg-6 col-md-12 m-0 p-0 text-md-center text-lg-start" id="follow-us">
-                        <p id="footer-H">Follow Us</p>
-                        <a href="#" id="footer-I" aria-label="Facebook">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" id="footer-I" aria-label="LinkedIn">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" id="footer-I" aria-label="Twitter">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a href="#" id="footer-I" aria-label="YouTube">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                        <a href="#" id="footer-I" aria-label="Instagram">
-                            <i class="fab fa-instagram"></i>
-                        </a>
+                <div class="category">
+                    <p><a href="?make=Mercedes-Benz" aria-label="Browse SUV models">Mercedes-Benz</a></p>
+                </div>
+                <div class="category">
+                    <p><a href="?make=Ford" aria-label="Browse Hatchback models">Ford</a></p>
+                </div>
+                <div class="category">
+                    <p><a href="?make=Chevrolet" aria-label="Browse Convertible models">Chevrolet</a></p>
+                </div>
+                <div class="link-button">
+                    <a href="#">More</a>
+                </div>
+            </div>
+            <div class="text-center cars-cards">
+                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
+                    <div class="carousel-inner">
+                        <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1500" id="car-card-brand">
                     </div>
-                    <div class="col-lg-6 col-md-12 text-md-center text-lg-end" id="mobile-app">
-                        <p id="footer-H">Mobile app</p>
-                        <a href="#" id="footer-I" aria-label="Download on App Store">
-                            <i class="fab fa-apple"></i>
-                        </a>
-                        <a href="#" id="footer-I" aria-label="Get it on Google Play">
-                            <i class="fab fa-google-play"></i>
-                        </a>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <button class="cards-control-next" aria-label="Next carousel item">
+                            <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
 
-    <!-- Custom Javascript -->
-     <script src="js/api.js"></script>
-    <script src="js/main.js"></script>
+        <div id="car-categories-condition" class="container-fluid car-categories my-4 ">
+            <h2 data-aos="fade-down" data-aos-easing="linear"
+            data-aos-duration="1500">preowned cars</h2>
+            <div class="category-list" data-aos="fade-right" data-aos-easing="linear"
+            data-aos-duration="1500">
+                <div class="category">
+                    <p><a href="?condition=used" aria-label="Browse Sedan models">Used</a></p>
+                </div>
+                <div class="category">
+                    <p><a href="?condition=new" aria-label="Browse Coupe models">New</a></p>
+                </div>
+            </div>
+            <div class="text-center cars-cards">
+                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12" >
+                    <div class="carousel-inner">
+                        <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-easing="linear"
+                        data-aos-duration="1500" id="car-card-condition">
+                    </div>
+                    </div>
+                    <div class="mt-4 text-center">
+                        <button class="cards-control-next" aria-label="Next carousel item">
+                            <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="footer bg-dark text-light pt-4" data-aos="zoom-in" data-aos-easing="linear"
+        data-aos-duration="1500">
+            <div class="container">
+                <div class="row">
+                    <!-- About Us Section -->
+                    <div class="col-md-3">
+                        <h5>About Us</h5>
+                        <p>We are the leading marketplace for buying and selling cars. Find your next car or sell your
+                            current vehicle with ease!</p>
+                    </div>
+
+                    <!-- Quick Links Section -->
+                    <div class="col-md-3">
+                        <h5>Quick Links</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-light">Home</a></li>
+                            <li><a href="#" class="text-light">Browse Cars</a></li>
+                            <li><a href="#" class="text-light">Sell Your Car</a></li>
+                            <li><a href="#" class="text-light">Contact Us</a></li>
+                            <li><a href="#" class="text-light">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info Section -->
+                    <div class="col-md-3">
+                        <h5>Contact Us</h5>
+                        <p>Email: <a href="mailto:support@carvan.com"
+                                class="text-light">support@carvan.com</a></p>
+                        <p>Phone: +1 800-123-4567</p>
+                        <p>Address: 123 Main Street, City, Country</p>
+                    </div>
+
+                    <!-- Social Media Section -->
+                    <div class="col-md-3">
+                        <h5>Follow Us</h5>
+                        <div class="social-icons">
+                            <a href="#" class="text-light me-3"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Newsletter Section -->
+                    <div class="col-12 text-center mt-3">
+                        <h5>Stay Updated!</h5>
+                        <p>Sign up for our newsletter to receive the latest car listings, news, and updates.</p>
+                        <form>
+                            <div class="input-group justify-content-center">
+                                <input type="email" class="form-control" placeholder="Enter your email" required>
+                                <button type="submit" class="btn btn-primary">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 text-center mt-4">
+                        <p>&copy; 2025 Car Marketplace. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+
+        <!-- Custom Javascript -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/api.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            AOS.init();
+          </script>
 </body>
+
 </html>
