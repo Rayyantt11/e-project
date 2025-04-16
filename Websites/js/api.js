@@ -150,17 +150,18 @@ document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
     const targetId = toggle.getAttribute('data-target');
     const content = document.querySelector(targetId);
     const parentCol = toggle.closest('.dropdown-column');
-    const parentRow = parentCol.parentElement; // .row
+    const parentRow = parentCol.parentElement; 
 
     if (!content) return;
 
     const isActive = content.style.display === 'block';
+    const notActive = content.style.dsipaly === 'none';
 
     // Reset all dropdowns and column widths
     document.querySelectorAll('.dropdown-content').forEach(drop => drop.style.display = 'none');
     document.querySelectorAll('.dropdown-column').forEach(col => {
-      col.classList.remove('col-12');
-      col.classList.add('col-lg-4');
+      col.classList.remove('col-lg-12');
+      col.classList.add('col-lg-');
     });
 
     if (!isActive) {
@@ -168,7 +169,8 @@ document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
       parentRow.prepend(parentCol);
       content.style.display = 'block';
       parentCol.classList.remove('col-lg-4');
-      parentCol.classList.add('col-12');
+      parentCol.classList.add('col-lg-12');
     }
+ 
   });
 });
