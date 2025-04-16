@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
         const response = await fetch("./js/cars_api.json");
         const data = await response.json();
-        const cars = data.cars;
+        const cars = data;
 
         cars.forEach(car => {
             const make = car.condition?.toLowerCase();
