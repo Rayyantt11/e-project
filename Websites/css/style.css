@@ -591,4 +591,15 @@ body.modal-open .main-content {
   height:fit-content;
   transition: transform 0.3s ease-in-out;
 }
+.dropdown-toggle {
+  cursor: pointer;
+  padding: 1rem;
+  background: black;
+  border-radius: 20px;
 
+}
+
+.dropdown-content {
+  margin-top: 1rem;
+  transition: all 0.3s ease;
+}

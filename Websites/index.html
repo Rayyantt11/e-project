@@ -126,116 +126,155 @@
     <!-- Carousel Section -->
 
     <!-- Car Categories Section -->
-    <div id="car-categories-type" class="container-fluid car-categories my-4 reveal bg-dark">
-        <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Range of Cars</h2>
-        <div class="category-list" data-aos="fade-right" data-aos-duration="1500">
-            <div class="category">
-                <p><a href="#" data-type="sedan" aria-label="Browse Sedan models">Sedan</a></p>
-            </div>
-            <div class="category">
-                <p><a href="#" data-type="coupe" aria-label="Browse Coupe models">Coupe</a></p>
-            </div>
-            <div class="category">
-                <p><a href="#" data-type="suv" aria-label="Browse SUV models">SUV</a></p>
-            </div>
-            <div class="category">
-                <p><a href="#" data-type="Hatchback" aria-label="Browse Hatchback models">Hatchback</a></p>
-            </div>
-            <div class="category">
-                <p><a href="#" data-type="convertible" aria-label="Browse Convertible models">Convertible</a></p>
-            </div>
-        </div>
-        <div class="text-center cars-cards">
-            <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
-                <div class="carousel-inner">
-                    <div class="d-flex flex-wrap justify-content-center " data-aos="fade-up" data-aos-easing="linear"
-                        data-aos-duration="1500" id="car-card-type">
-                    </div>
-                </div>
+    <div class="container-fluid my-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 dropdown-column" id="col-types">
+                <div class="dropdown-wrapper d-flex justify-content-center border-bottom my-3">
+                    <h2 class="dropdown-toggle text-white my-5" data-target="#dropdownTypes" data-aos="fade-down"
+                        data-aos-duration="1500">Range Of Cars</h2>
+                    <div id="#dropdownTypes" class="dropdown-content" style="display: none;">
 
-                <!-- Carousel control (optional, depending on your design) -->
-                <div class="mt-4 text-center d-flex justify-content-center">
-                    <button class="cards-control-prev m-2" data-aos="fade-right" data-aos-duration="1500"
-                        aria-label="Next carousel item">
-                        <span class="carousel-control-prev-icon cards-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="cards-control-next m-2" data-aos="fade-right" data-aos-duration="1500"
-                        aria-label="Next carousel item">
-                        <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                        <div id="car-categories-type" class="container-fluid car-categories my-4 reveal bg-dark">
+                            <div class="category-list" data-aos="fade-right" data-aos-duration="1500">
+                                <div class="category">
+                                    <p><a href="#" data-type="sedan" aria-label="Browse Sedan models">Sedan</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a href="#" data-type="coupe" aria-label="Browse Coupe models">Coupe</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a href="#" data-type="suv" aria-label="Browse SUV models">SUV</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a href="#" data-type="Hatchback"
+                                            aria-label="Browse Hatchback models">Hatchback</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a href="#" data-type="convertible"
+                                            aria-label="Browse Convertible models">Convertible</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="text-center cars-cards">
+                                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
+                                    <div class="carousel-inner">
+                                        <div class="d-flex flex-wrap justify-content-center " data-aos="fade-up"
+                                            data-aos-easing="linear" data-aos-duration="1500" id="car-card-type">
+                                        </div>
+                                    </div>
 
-                </div>
-            </div>
-        </div>
+                                    <!-- Carousel control (optional, depending on your design) -->
+                                    <div class="mt-4 text-center d-flex justify-content-center">
+                                        <button class="cards-control-prev m-2" data-aos="fade-right"
+                                            data-aos-duration="1500" aria-label="Next carousel item">
+                                            <span class="carousel-control-prev-icon cards-control-prev-icon"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="cards-control-next m-2" data-aos="fade-right"
+                                            data-aos-duration="1500" aria-label="Next carousel item">
+                                            <span class="carousel-control-next-icon cards-control-next-icon"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
 
-
-        <div id="car-categories-brand" class="container-fluid car-categories my-4 reveal bg-dark">
-            <h2 data-aos="fade-down" data-aos-duration="1500">Brands</h2>
-            <div class="category-list" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
-                <div class="category">
-                    <p><a href="?make=audi" aria-label="Browse Sedan models">Audi</a></p>
-                </div>
-                <div class="category">
-                    <p><a href="?make=BMW" aria-label="Browse Coupe models">BMW</a></p>
-                </div>
-                <div class="category">
-                    <p><a href="?make=Mercedes-Benz" aria-label="Browse SUV models">Mercedes-Benz</a></p>
-                </div>
-                <div class="category">
-                    <p><a href="?make=Ford" aria-label="Browse Hatchback models">Ford</a></p>
-                </div>
-                <div class="category">
-                    <p><a href="?make=Chevrolet" aria-label="Browse Convertible models">Chevrolet</a></p>
-                </div>
-                <div class="category">
-                    <p><a href="brands.html" aria-label="Browse Convertible models">More + 15</a></p>
-                </div>
-
-            </div>
-            <div class="text-center cars-cards">
-                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
-                    <div class="carousel-inner">
-                        <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-easing="linear"
-                            data-aos-duration="1500" id="car-card-brand">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="mt-4 text-center">
-                        <button class="cards-control-next" data-aos="fade-right" data-aos-easing="linear"
-                            data-aos-duration="1500" aria-label="Next carousel item">
-                            <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
                 </div>
             </div>
-        </div>
 
+            <div class="col-lg-4 col-md-6 mb-4 dropdown-column" id="col-brands">
+                <div class="dropdown-wrapper d-flex justify-content-center border-bottom my-3">
+                    <h2 class="dropdown-toggle text-white my-5" data-target="" data-aos="fade-down"
+                        data-aos-duration="1500">Brands</h2>
+                    <div id="car-categories-brand" class="dropdown-content" style="display: none;"
+                    >
+                        <div id="car-categories-brand" class="container-fluid car-categories my-4 reveal bg-dark">
+                            <div class="category-list" data-aos="fade-right" data-aos-easing="linear"
+                                data-aos-duration="1500">
+                                <div class="category">
+                                    <p><a data-make="audi" -aria-label="Browse Sedan models">Audi</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a data-make="bmw" aria-label="Browse Coupe models">BMW</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a data-makee="mercedes-benz" aria-label="Browse SUV models">Mercedes-Benz</a>
+                                    </p>
+                                </div>
+                                <div class="category">
+                                    <p><a data-make="ford" aria-label="Browse Hatchback models">Ford</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a data-make="chevrolet" aria-label="Browse Convertible models">Chevrolet</a>
+                                    </p>
+                                </div>
+                                <div class="category">
+                                    <p><a href="brands.html" aria-label="Browse Convertible models">More + 15</a>
+                                    </p>
+                                </div>
 
-        <div id="car-categories-condition" class="container-fluid car-categories my-4 bg-dark">
-            <h2 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">preowned cars</h2>
-            <div class="category-list" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">
-                <div class="category">
-                    <p><a href="?condition=used" aria-label="Browse Sedan models">Used</a></p>
-                </div>
-                <div class="category">
-                    <p><a href="?condition=new" aria-label="Browse Coupe models">New</a></p>
-                </div>
-            </div>
-            <div class="text-center cars-cards">
-                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
-                    <div class="carousel-inner">
-                        <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up" data-aos-easing="linear"
-                            data-aos-duration="1500" id="car-card-condition">
+                            </div>
+                            <div class="text-center cars-cards">
+                                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
+                                    <div class="carousel-inner">
+                                        <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                                            data-aos-easing="linear" data-aos-duration="1500" id="car-card-brand">
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 text-center">
+                                        <button class="cards-control-next" data-aos="fade-right"
+                                            data-aos-easing="linear" data-aos-duration="1500"
+                                            aria-label="Next carousel item">
+                                            <span class="carousel-control-next-icon cards-control-next-icon"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="mt-4 text-center">
-                        <button class="cards-control-next" data-aos="fade-right" data-aos-easing="linear"
-                            data-aos-duration="1500" aria-label="Next carousel item">
-                            <span class="carousel-control-next-icon cards-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 dropdown-column" id="col-conditions">
+                <div class="dropdown-wrapper d-flex justify-content-center border-bottom my-3">
+                    <h2 class="dropdown-toggle text-white my-5" data-target=""
+                        data-aos="fade-down" data-aos-duration="1500">Preowend Cars</h2>
+                    <div id="car-categories-condition" class="dropdown-content" style="display: none;">
+                        <div id="car-categories-condition" class="container-fluid car-categories my-4 bg-dark">
+
+                            <div class="category-list" data-aos="fade-right" data-aos-easing="linear"
+                                data-aos-duration="1500">
+                                <div class="category">
+                                    <p><a data-condition="used" aria-label="Browse Sedan models">Used</a></p>
+                                </div>
+                                <div class="category">
+                                    <p><a data-condition="new" aria-label="Browse Coupe models">New</a></p>
+                                </div>
+                            </div>
+                            <div class="text-center cars-cards">
+                                <div id="carouselExample" class="carousel slide carousel-cards col-lg-12">
+                                    <div class="carousel-inner">
+                                        <div class="d-flex flex-wrap justify-content-center" data-aos="fade-up"
+                                            data-aos-easing="linear" data-aos-duration="1500" id="car-card-condition">
+                                        </div>
+                                    </div>
+                                    <div class="mt-4 text-center">
+                                        <button class="cards-control-next" data-aos="fade-right"
+                                            data-aos-easing="linear" data-aos-duration="1500"
+                                            aria-label="Next carousel item">
+                                            <span class="carousel-control-next-icon cards-control-next-icon"
+                                                aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -244,10 +283,11 @@
 
     <div class="container-fluid">
 
-        <div class="trust-sec d-flex text-align-right text-center justify-content-center" style="visibility: visible;" bis_skin_checked="1">
+        <div class="trust-sec d-flex text-align-right text-center justify-content-center" style="visibility: visible;"
+            bis_skin_checked="1">
 
             <div class="dt-sc-support-icon-image " bis_skin_checked="1">
-                
+
                 <img srcset="//smartshoperhub.com/cdn/shop/files/2.webp?v=1735770699 98w"
                     src="//smartshoperhub.com/cdn/shop/files/2.webp?v=1735770699&amp;width=550" sizes="(min-width: 990px) 550px,
                           (min-width: 750px) 550px, calc(100vw - 30px)" alt="" height="98" width="98" loading="lazy">
@@ -256,12 +296,15 @@
             <div class="dt-sc-support-content text-light" bis_skin_checked="1">
                 <h6 class="dt-sc-support-sub-heading">No Hassle, No Worries!</h6>
                 <h5 class="dt-sc-support-heading ">Easy Returns</h5>
-                <p class="dt-sc-support-description" > Not the right fit? No problem! If you change your mind, you can
-                    return your item within 10 days—hassle-free and straightforward. We believe shopping should be
+                <p class="dt-sc-support-description"> Not the right fit? No problem! If you change your mind,
+                    you can
+                    return your item within 10 days—hassle-free and straightforward. We believe shopping should
+                    be
                     stress-free, and we’re here to make sure you feelgood about every purchase.</p>
             </div>
         </div>
-        <div class="trust-sec d-flex text-align-right text-center justify-content-center" style="visibility: visible;" bis_skin_checked="1">
+        <div class="trust-sec d-flex text-align-right text-center justify-content-center" style="visibility: visible;"
+            bis_skin_checked="1">
 
             <div class="dt-sc-support-icon-image" bis_skin_checked="1">
                 <img srcset="//smartshoperhub.com/cdn/shop/files/3.webp?v=1735770699 98w"
@@ -272,8 +315,10 @@
             <div class="dt-sc-support-content" bis_skin_checked="1">
                 <h6 class="dt-sc-support-sub-heading text-light">We’re Always Here to Help!</h6>
                 <h5 class="dt-sc-support-heading text-light">24/7 Customer Support</h5>
-                <p class="dt-sc-support-description text-light"> Got questions? Need assistance? Our customer support team is
-                    available round the clock to ensure a smooth shopping experience. Whether it’s order tracking,
+                <p class="dt-sc-support-description text-light"> Got questions? Need assistance? Our customer
+                    support team is
+                    available round the clock to ensure a smooth shopping experience. Whether it’s order
+                    tracking,
                     product details, or just a little guidance, we’ve got your back every step of the way.</p>
             </div>
         </div>
